@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset = "UTF-8">            <!-- metadados -->
+        <title>Utilizando as principais tags do HTML</title>            <!-- metadados -->
+    </head>
+    
+    <body>          <!-- metadados -->
+        <h1: style="color:black; font-family: times; font-size: xx-large; text-align: center;">
+        Seja bem-vindo ao meu primeiro "site"</h1>         <!-- separação de conteúdo -->
+
+        <h2: style="color:brown; font-family: times; font-size: x-large;">      
+        <br>Aqui temos um título marrom (ou vermelho?)</h1>            <!-- separação de conteúdo -->
+
+        <h3: style="color:goldenrod; font-family: times; font-size: large;">
+        <br>Já aqui, um título de ouro (irônico). Menor do que o anterior.</h2:>
+
+        <p: style="color:black; font-family: times; font-size: medium;">    <!-- cont. textual-->
+        <br>Um parágrafo vermelho (aparentemente o marrom era marrom, de fato),
+        não importa quantas linhas hajam dentro de um parágrafo,
+        o navegador consegue identificá-las e simplesmente ignorá-las
+        para formar um texto com uma leitura mais fácil.
+        <br>A menos que<br>eu adicione<br>quebras de linha.</p>
+
+        <strong><br>Este trecho do texto estará em negrito</strong>        <!-- cont. textual-->
+        <i><br>Já este estará em itálico</i>                                <!-- cont. textual-->
+
+        <p: style="color:black; font-family: times; font-size: medium;">
+        <br>Partindo a uma pegada mais séria, aqui está o link para
+        o <a href="https://github.com/0drigues" target="_blank" title="Meu GitHub!">meu GitHub</a>.<br>
+        Caso esteja duvidando, aqui tem uma imagem:<br>
+        <img src="mygit.png" alt="Meu perfil do GitHub" style="width: 850px; height: 475px"><br>    <!-- imagem -->
+        Também temos fotos de tucanos por aqui:<br>
+        <img src="https://static.escolakids.uol.com.br/2021/10/tucano-de-bico-arco-iris-na-natureza.jpg" alt="Tucano" style="width: 800px; height: 475px"><br>    <!-- imagem -->
+        </p>
+
+        <p: style="color:black; font-family: times; font-size: medium;">
+        <br><strong: style="font-size:large">Que tal testar um formulário?<br>
+        Caso você queira que eu entre em contato com você, deixe seus dados abaixo:<br></strong:>
+        </p:>
+
+        <form action="form.php">
+            <label style="text-align:left;" for = "nome">Nome e sobrenome:</label><br>
+            <input type = "text" id="nome" name="nome"><br>     <!-- forms -->
+            <label style="text-align:left;" for = "email">Melhor e-mail:</label><br>
+            <input type = "email" id="email" name="email"><br>       <!-- forms -->
+            <input type = "submit" value= "Enviar">
+        </form>
+
+    </body>
+
+</html>
