@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Principais pontos turísticos da Europa</title>
+            <script src="index.js"></script>
+            
+            <style>
+                @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+            
+                h1{
+                    text-align: center;
+                    color: azure;
+                    text-shadow: 2px 2px 5px black;
+                    font-size: 45px;
+                }
+
+                h2{
+                    text-align: center;
+                    text-shadow: 2px 2px 2px black;
+                    color: azure;
+                    font-size: 30px;
+                }
+
+                h3{
+                    text-align: center;
+                    text-shadow: 2px 2px 2px black;
+                    color: azure;
+                    font-size: 22px;
+                }
+
+                p{
+                    text-align: justify;
+                    color:beige;
+                    font-size: 15px;
+                }
+
+                body{
+                    background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(Monaco.jpg);
+                    background-position: unset;
+                    background-repeat: no-repeat;
+                    background-attachment: scroll;
+                    background-size: cover;
+                    opacity: 0.8;
+                    font-family: 'Roboto', sans-serif;
+                    margin: 25px 50px
+                }
+
+                .img{
+                    display: flex;
+                    flex-wrap: wrap;
+                    list-style: none;
+                    justify-content: space-evenly;
+                    border-radius: 8px;
+                }
+            
+                img{    
+                    width: 200px;
+                    border-radius: 8px;
+                }
+
+                input{
+                    margin-bottom: 10px;
+                }
+
+                footer{
+                    text-align: center;
+                    color:beige;
+                    text-shadow: 2px 2px 2px black;
+                    font-size: 30px;
+                    background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(Monaco.jpg);
+                }
+
+                form{
+                    width: 100%;
+                    text-align: left;
+                    font-size: 15px;
+                    padding: 12px 20px;
+                    margin: 10px 0;
+                    box-sizing: border-box;
+                    border-radius: 4px;
+                    display: flex;
+                    flex-direction: column;
+                }
+            
+            </style>
+        </head>
+    
+        <body>
+            <h1>Principais pontos turísticos da Europa</h1>
+            <p>A Europa possui 50 países, cada um com seus próprios costumes e belezas naturais,
+            o que faz com que seja destino de milhões de turistas todos os anos e em qualquer época
+            do ano.<br>
+            Por isso, criamos este site para falar sobre algumas das possíveis localidades que você gostaria
+            de visitar durante uma ida ao Velho Continente.
+            </p>
+            <hr>
+
+            <h2>Destinos</h2>
+            <ul class = "img">
+                <li>
+                    <p>Mônaco</p>
+                    <a href="/2_europa/monaco/monaco.html">
+                        <img src="monaco1.jpg" alt="Mônaco">
+                    </a>
+                </li>
+
+                <li>
+                    <p>Roma</p>
+                    <a href="/2_europa/roma/roma.html">
+                        <img src="roma1.jpg" alt="Roma">
+                    </a>
+                </li>
+
+                <li>
+                    <p>Lisboa</p>
+                    <a href="/2_europa/lisboa/lisboa.html">
+                        <img src="lisboa1.jpg" alt="Lisboa">
+                    </a>
+                </li>
+            </ul>
+
+            <h3>
+                Clique nas imagens acima e descubra mais sobre os nossos destinos!
+            </h3>
+        
+        </body>
+
+        <footer>
+            Fale conosco!
+            <form action="/1_tags/form.php">
+                <label style="text-align:left;" for = "nome">Nome e sobrenome:</label><br>
+                <input type = "text" id="nome" name="nome"><br>     <!-- forms -->
+                <label style="text-align:left;" for = "email">Melhor e-mail:</label><br>
+                <input type = "email" id="email" name="email"><br>       <!-- forms -->
+                <input type = "submit" value= "Enviar">
+                </form>
+        </footer>
+
+    </html>
